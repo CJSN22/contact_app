@@ -9,7 +9,7 @@ export default class EditContacts extends React.Component {
 		return (
 			<div className="container">
 				<div>
-					<h1 className="text-center mt-5">Edit contact</h1>
+					<h1 className="text-center mt-5">Edit Contact</h1>
 					<Context.Consumer>
 						{({store, actions}) => {
 					let id = this.props.match.params.id;
