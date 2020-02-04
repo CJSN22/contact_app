@@ -44,7 +44,7 @@ export default class EditContacts extends React.Component {
 								document.querySelector('#addressInput').value, apiId, this.props.history.push("/"))
 								}
 								className="btn btn-primary form-control">save</button>
-								<Link className="mt-3 w-100 text-center" to="/">or get back to contacts</Link>
+								<Link className="mt-3 w-100 text-center" to="/">or go back to contacts</Link>
 							</form>
 					);
 					}}
