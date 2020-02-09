@@ -40,7 +40,7 @@ export default class AddContacts extends React.Component {
                                 document.querySelector('#addressInput').value)
 								}
 								className="btn btn-primary form-control">Save</button>
-								<Link className="mt-3 w-100 text-center" to="/">or get back to contacts</Link>
+								<Link className="mt-3 w-100 text-center" to="/"> back to contacts</Link>
 							</form>
 						</div>
 					</div>
