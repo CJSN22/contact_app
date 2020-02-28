@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://cjsn22.github.io/contact_app",
   "scripts": {
     "c9": "webpack-dev-server --mode development --open --host $IP --port 9000",
     "build": "webpack --mode development",
-    "deploy": "node deploy-to-github.js"
+    "deploy": "gh-pages -d build"
+   
+
+    
   },
   "author": "",
   "license": "ISC",
